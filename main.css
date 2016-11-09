@@ -3,22 +3,20 @@ body {
 }
 
 h1{
-    font-color:red;
+    color:red;
     margin: center;
     
 }
 
+@media only screen and (max-width: 414px) {
+    body {
+    background-color: black;
+}
 
+h1{
+    color:white;
+    margin: center;
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
